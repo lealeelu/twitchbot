@@ -1,0 +1,13 @@
+exports.options = {
+  options: {
+    debug: true
+  },
+  connection: {
+    reconnect: true
+  },
+  identity: {
+    username: 'username goes here',
+    password: 'oauth:goeshere'
+  },
+  channels: ['#channelgoeshere']
+}
